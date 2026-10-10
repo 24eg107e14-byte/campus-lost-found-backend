@@ -16,9 +16,7 @@ import com.campus.lostfound.service.MatchService;
 @RequestMapping("/api/matches")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "http://localhost:5174",
-        "http://localhost:5175",
-        "http://localhost:5176"
+        "https://24eg107e14.netlify.app"
 })
 public class MatchController {
 

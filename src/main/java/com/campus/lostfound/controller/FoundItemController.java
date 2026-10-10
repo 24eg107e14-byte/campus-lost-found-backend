@@ -17,9 +17,7 @@ import com.campus.lostfound.repository.FoundItemRepository;
 @RequestMapping("/api/found-items")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "http://localhost:5174",
-        "http://localhost:5175",
-        "http://localhost:5176"
+        "https://24eg107e14.netlify.app"
 })
 public class FoundItemController {
 

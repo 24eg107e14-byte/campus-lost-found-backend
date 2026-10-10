@@ -1,7 +1,6 @@
 package com.campus.lostfound.controller;
 
-import com.campus.lostfound.model.LostItem;
-import com.campus.lostfound.repository.LostItemRepository;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -11,16 +10,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import com.campus.lostfound.model.LostItem;
+import com.campus.lostfound.repository.LostItemRepository;
 
 @RestController
 @RequestMapping("/api/lost-items")
 
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "http://localhost:5174",
-        "http://localhost:5175",
-        "http://localhost:5176"
+        "https://24eg107e14.netlify.app"
 })
 
 public class LostItemController {
